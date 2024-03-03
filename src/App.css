@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+}
+
+.navBar {
+  display: flex;
+  background-color: grey;
+  height: 60px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.body {
+  display: flex;
+}
+
+.LeftBoard {
+  width: 70%;
+}
+
+.MainBoard{
+  background-color: rgb(127, 127, 240);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.Title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Balance {
+  text-align: center;
+}
+
+.MoneyInMoneyOut{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ChartOverwiew{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ChartSelection{
+  display: flex;
+  justify-content: center;
+}
+
+.CategoriesAndTransactions{
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.CategoriesOverview{
+  width: 50%;
+}
+
+
+.RightBoard {
+  width: 30%;
+}
+
+.RightBoard {
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
